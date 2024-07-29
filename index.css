@@ -1,0 +1,15 @@
+/* Basic reset and global styles */
+
+body {
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set default font family */
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  #root {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+  }
+  

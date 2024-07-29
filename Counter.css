@@ -1,0 +1,54 @@
+/* Main container styles */
+.counter {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center items horizontally */
+    margin-top: 50px; /* Add margin at the top */
+  }
+  
+  /* Styles for the heading */
+  h1 {
+    font-size: 2.5rem; /* Large font size */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  /* Container for the buttons */
+  .buttons {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center buttons horizontally */
+    gap: 10px; /* Space between buttons */
+  }
+  
+  /* Styles for the custom step input container */
+  .custom-step {
+    margin-top: 20px; /* Space above the container */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    gap: 10px; /* Space between label and input */
+  }
+  
+  /* Styles for the buttons */
+  button {
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f0f0f0; /* Light gray background */
+    transition: background-color 0.3s; /* Smooth background color change */
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #e0e0e0; /* Slightly darker background on hover */
+  }
+  
+  /* Styles for the step input */
+  input[type="number"] {
+    padding: 5px; /* Padding inside the input */
+    font-size: 1rem; /* Font size */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    width: 60px; /* Fixed width */
+  }
+  
